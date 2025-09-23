@@ -1,0 +1,16 @@
+C:\Users\crist\Documents\Sem3\DNP\Assignment1\Assignment\Server\RepositoryContracts\bin\Debug\net9.0\RepositoryContracts.deps.json
+C:\Users\crist\Documents\Sem3\DNP\Assignment1\Assignment\Server\RepositoryContracts\bin\Debug\net9.0\RepositoryContracts.dll
+C:\Users\crist\Documents\Sem3\DNP\Assignment1\Assignment\Server\RepositoryContracts\bin\Debug\net9.0\RepositoryContracts.pdb
+C:\Users\crist\Documents\Sem3\DNP\Assignment1\Assignment\Server\RepositoryContracts\bin\Debug\net9.0\Entities.dll
+C:\Users\crist\Documents\Sem3\DNP\Assignment1\Assignment\Server\RepositoryContracts\bin\Debug\net9.0\Entities.pdb
+C:\Users\crist\Documents\Sem3\DNP\Assignment1\Assignment\Server\RepositoryContracts\obj\Debug\net9.0\RepositoryContracts.csproj.AssemblyReference.cache
+C:\Users\crist\Documents\Sem3\DNP\Assignment1\Assignment\Server\RepositoryContracts\obj\Debug\net9.0\RepositoryContracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\crist\Documents\Sem3\DNP\Assignment1\Assignment\Server\RepositoryContracts\obj\Debug\net9.0\RepositoryContracts.AssemblyInfoInputs.cache
+C:\Users\crist\Documents\Sem3\DNP\Assignment1\Assignment\Server\RepositoryContracts\obj\Debug\net9.0\RepositoryContracts.AssemblyInfo.cs
+C:\Users\crist\Documents\Sem3\DNP\Assignment1\Assignment\Server\RepositoryContracts\obj\Debug\net9.0\RepositoryContracts.csproj.CoreCompileInputs.cache
+C:\Users\crist\Documents\Sem3\DNP\Assignment1\Assignment\Server\RepositoryContracts\obj\Debug\net9.0\RepositoryContracts.sourcelink.json
+C:\Users\crist\Documents\Sem3\DNP\Assignment1\Assignment\Server\RepositoryContracts\obj\Debug\net9.0\Reposito.28D4BA81.Up2Date
+C:\Users\crist\Documents\Sem3\DNP\Assignment1\Assignment\Server\RepositoryContracts\obj\Debug\net9.0\RepositoryContracts.dll
+C:\Users\crist\Documents\Sem3\DNP\Assignment1\Assignment\Server\RepositoryContracts\obj\Debug\net9.0\refint\RepositoryContracts.dll
+C:\Users\crist\Documents\Sem3\DNP\Assignment1\Assignment\Server\RepositoryContracts\obj\Debug\net9.0\RepositoryContracts.pdb
+C:\Users\crist\Documents\Sem3\DNP\Assignment1\Assignment\Server\RepositoryContracts\obj\Debug\net9.0\ref\RepositoryContracts.dll
