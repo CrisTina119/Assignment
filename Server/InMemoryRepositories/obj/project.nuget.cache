@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UKBDRV69+F0=",
+  "dgSpecHash": "UOXSDQlLIGA=",
   "success": true,
   "projectFilePath": "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\InMemoryRepositories\\InMemoryRepositories.csproj",
   "expectedPackageFiles": [
@@ -8,15 +8,5 @@
     "C:\\Users\\crist\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.7\\microsoft.windowsdesktop.app.ref.9.0.7.nupkg.sha512",
     "C:\\Users\\crist\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.7\\microsoft.aspnetcore.app.ref.9.0.7.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
-      "projectPath": "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\InMemoryRepositories\\InMemoryRepositories.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\InMemoryRepositories\\InMemoryRepositories.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

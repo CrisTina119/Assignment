@@ -1,0 +1,110 @@
+using ApiContracts.UserFolder;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using RepositoryContracts;
+
+namespace WebAppi.Controllers
+{
+    [Route("[controller]")]
+    [ApiController]
+    public class UserController : ControllerBase
+    {
+        private readonly IUserRepository userInterface;
+
+        public UserController(IUserRepository userInterface)
+        {
+            this.userInterface = userInterface;
+        }
+        // POST /users
+        [HttpPost]
+        public async Task<ActionResult<UserDto>> AddUser([FromBody] CreateUserDto request)
+        {
+            var user = new User { Username = request.Username, Passsword = request.Password };
+            var created = await userInterface.AddAsync(user);
+
+           
+            if (created.Username is null)
+                return Problem("User was created with null Username.", statusCode: 500);
+
+            var result = new UserDto { Id = created.Id, Username = created.Username };
+            return CreatedAtAction(nameof(GetById), new { id = result.Id }, result);
+        }
+
+        // GET /users/{id}
+        [HttpGet("{id:int}")]
+        public async Task<ActionResult<UserDto>> GetById(int id)
+        {
+            User? u;
+            try
+            {
+                u = await userInterface.GetSingleAsync(id);
+            }
+            catch (KeyNotFoundException)
+            {
+                return NotFound();
+            }
+            if (u is null) return NotFound();
+
+            return new UserDto
+            {
+                Id = u.Id,
+                Username = u.Username ?? string.Empty
+            };
+        }
+
+        // GET 
+        [HttpGet]
+        public ActionResult<IEnumerable<UserDto>> GetMany([FromQuery] string? usernameContains)
+        {
+            var q = userInterface.GetManyAsync(); 
+
+            if (!string.IsNullOrWhiteSpace(usernameContains))
+            {
+                // EF-friendly case-insensitive contains
+                var needle = usernameContains.ToLower();
+                q = q.Where(u => u.Username != null && u.Username.ToLower().Contains(needle));
+            }
+
+            var list = q
+                .Select(u => new UserDto
+                {
+                    Id = u.Id,
+                    Username = u.Username ?? string.Empty
+                })
+                .ToList();
+
+            return list;
+        }
+
+        // PUT /
+        [HttpPut("{id:int}")]
+        public async Task<IActionResult> Update(int id, [FromBody] CreateUserDto dto)
+        {
+            var user = new User { Id = id, Username = dto.Username, Passsword = dto.Password };
+            try
+            {
+                await userInterface.UpdateAsync(user);
+                return NoContent();
+            }
+            catch (KeyNotFoundException)
+            {
+                return NotFound();
+            }
+        }
+
+        // DELETE /users/{id}
+        [HttpDelete("{id:int}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            try
+            {
+                await userInterface.DeleteAsync(id);
+                return NoContent();
+            }
+            catch (KeyNotFoundException)
+            {
+                return NotFound();
+            }
+        }
+    }
+}

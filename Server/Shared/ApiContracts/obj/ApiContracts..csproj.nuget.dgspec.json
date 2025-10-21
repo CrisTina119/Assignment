@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\Shared\\ApiContracts\\ApiContracts..csproj": {}
+    "c:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\Shared\\ApiContracts\\ApiContracts..csproj": {}
   },
   "projects": {
-    "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\Shared\\ApiContracts\\ApiContracts..csproj": {
+    "c:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\Shared\\ApiContracts\\ApiContracts..csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\Shared\\ApiContracts\\ApiContracts..csproj",
+        "projectUniqueName": "c:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\Shared\\ApiContracts\\ApiContracts..csproj",
         "projectName": "ApiContracts.",
-        "projectPath": "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\Shared\\ApiContracts\\ApiContracts..csproj",
+        "projectPath": "c:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\Shared\\ApiContracts\\ApiContracts..csproj",
         "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\Shared\\ApiContracts\\obj\\",
+        "outputPath": "c:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\Shared\\ApiContracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

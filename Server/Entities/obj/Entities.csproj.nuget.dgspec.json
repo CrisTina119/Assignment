@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\Entities\\Entities.csproj": {}
+    "c:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\Entities\\Entities.csproj": {
+    "c:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\Entities\\Entities.csproj",
+        "projectUniqueName": "c:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\Entities\\Entities.csproj",
+        "projectPath": "c:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\Entities\\obj\\",
+        "outputPath": "c:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

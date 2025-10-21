@@ -403,8 +403,8 @@
               "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\RepositoryContracts\\RepositoryContracts.csproj": {
-                "projectPath": "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\RepositoryContracts\\RepositoryContracts.csproj"
+              "c:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\RepositoryContracts\\RepositoryContracts.csproj": {
+                "projectPath": "c:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\RepositoryContracts\\RepositoryContracts.csproj"
               }
             }
           }
@@ -747,14 +747,14 @@
         }
       }
     },
-    "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\RepositoryContracts\\RepositoryContracts.csproj": {
+    "c:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\RepositoryContracts\\RepositoryContracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\RepositoryContracts\\RepositoryContracts.csproj",
+        "projectUniqueName": "c:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\RepositoryContracts\\RepositoryContracts.csproj",
         "projectName": "RepositoryContracts",
-        "projectPath": "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\RepositoryContracts\\RepositoryContracts.csproj",
+        "projectPath": "c:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\RepositoryContracts\\RepositoryContracts.csproj",
         "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\RepositoryContracts\\obj\\",
+        "outputPath": "c:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\RepositoryContracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

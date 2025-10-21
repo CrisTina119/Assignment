@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "m+m2t7eUrkk=",
+  "dgSpecHash": "2yspDzM4d04=",
   "success": true,
   "projectFilePath": "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\CLI\\CLI.csproj",
   "expectedPackageFiles": [
@@ -9,15 +9,5 @@
     "C:\\Users\\crist\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.7\\microsoft.aspnetcore.app.ref.9.0.7.nupkg.sha512",
     "C:\\Users\\crist\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.7\\microsoft.netcore.app.host.win-x64.9.0.7.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
-      "projectPath": "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\CLI\\CLI.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\crist\\Documents\\.SEM3\\DNP\\Assignment1\\Assignment\\Server\\CLI\\CLI.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

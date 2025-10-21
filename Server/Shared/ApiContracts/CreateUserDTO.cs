@@ -2,15 +2,8 @@ using System;
 
 namespace ApiContracts;
 
-public class CreateUserDTO
+public class CreateUserDto
 {
-    public string Username { get; set; }
-    public string Password { get; set; }
-
-    public CreateUserDTO(string username, string password)
-    {
-        Username = username;
-        Password = password;
-      
-    }
+    public required string Username { get; set; }
+    public required int Password { get; set; }
 }
