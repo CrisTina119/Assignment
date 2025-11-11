@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiContracts.", "Shared\Api
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppi", "WebAppi\WebAppi.csproj", "{F150570D-34C0-4A26-8B0D-926E737D42C0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{1B207DA1-7E41-47BE-B77C-7DCA9CA71689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp1", "BlazorApp1\BlazorApp1.csproj", "{363EDA89-3259-4B76-B9AC-36B221FA6D62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +105,18 @@ Global
 		{F150570D-34C0-4A26-8B0D-926E737D42C0}.Release|x64.Build.0 = Release|Any CPU
 		{F150570D-34C0-4A26-8B0D-926E737D42C0}.Release|x86.ActiveCfg = Release|Any CPU
 		{F150570D-34C0-4A26-8B0D-926E737D42C0}.Release|x86.Build.0 = Release|Any CPU
+		{363EDA89-3259-4B76-B9AC-36B221FA6D62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363EDA89-3259-4B76-B9AC-36B221FA6D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363EDA89-3259-4B76-B9AC-36B221FA6D62}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{363EDA89-3259-4B76-B9AC-36B221FA6D62}.Debug|x64.Build.0 = Debug|Any CPU
+		{363EDA89-3259-4B76-B9AC-36B221FA6D62}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{363EDA89-3259-4B76-B9AC-36B221FA6D62}.Debug|x86.Build.0 = Debug|Any CPU
+		{363EDA89-3259-4B76-B9AC-36B221FA6D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363EDA89-3259-4B76-B9AC-36B221FA6D62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{363EDA89-3259-4B76-B9AC-36B221FA6D62}.Release|x64.ActiveCfg = Release|Any CPU
+		{363EDA89-3259-4B76-B9AC-36B221FA6D62}.Release|x64.Build.0 = Release|Any CPU
+		{363EDA89-3259-4B76-B9AC-36B221FA6D62}.Release|x86.ActiveCfg = Release|Any CPU
+		{363EDA89-3259-4B76-B9AC-36B221FA6D62}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,5 +124,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4EB83C7C-B7DB-717D-2A01-031D9CD05F92} = {4F52FD11-658E-A102-6CD3-7D7C16FFA15B}
 		{2C11050F-2155-4205-81ED-636AABFEFAAA} = {4EB83C7C-B7DB-717D-2A01-031D9CD05F92}
+		{363EDA89-3259-4B76-B9AC-36B221FA6D62} = {1B207DA1-7E41-47BE-B77C-7DCA9CA71689}
 	EndGlobalSection
 EndGlobal
