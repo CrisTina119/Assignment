@@ -1,5 +1,5 @@
 using FileRepositories;
-using RepositoryContracts;
+using RepositoryContracts.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
