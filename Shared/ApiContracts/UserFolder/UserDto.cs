@@ -4,7 +4,6 @@ namespace ApiContracts.UserFolder;
 
 public class UserDto
 {
-    public required string Username { get; set; }
-    public required int Id { get; set; }
-
+   public int Id { get; set; }
+    public string Username { get; set; } = "";
 }

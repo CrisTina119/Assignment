@@ -1,0 +1,20 @@
+﻿@page "/"
+@using ApiContracts.UserFolder
+@using System.Reflection
+@inject BlazorApp.Services.IUserService UserService
+@inject NavigationManager navMgr 
+
+
+
+<AuthorizeView> <Authorized>
+ <h3>Hello, @context.User.Identity!.Name</h3> 
+ </Authorized>
+  <NotAuthorized> 
+  lol you are not logged in!
+   </NotAuthorized> 
+   </AuthorizeView>
+    Here you can browse interesting posts. 
+    <button @onclick='() => navMgr.NavigateTo("loginpage")'>go to login</button>
+
+
+

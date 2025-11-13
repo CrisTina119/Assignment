@@ -1,7 +1,7 @@
 using System;
 
-namespace ApiContracts;
-
+namespace ApiContracts.UserFolder;
+public record LoginRequest(string Username, int Password);
 public class LoginRequest
 {
     public LoginRequest(string UserName, int password)
