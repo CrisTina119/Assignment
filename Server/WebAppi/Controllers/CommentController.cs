@@ -1,7 +1,7 @@
 using ApiContracts.CommentFolder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using RepositoryContracts;
+using RepositoryContracts.Interfaces;
 
 namespace WebAppi.Controllers
 {

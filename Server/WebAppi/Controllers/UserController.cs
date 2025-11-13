@@ -1,7 +1,7 @@
 using ApiContracts.UserFolder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using RepositoryContracts;
+using RepositoryContracts.Interfaces;
 
 namespace WebAppi.Controllers
 {
@@ -19,7 +19,7 @@ namespace WebAppi.Controllers
         [HttpPost]
         public async Task<ActionResult<UserDto>> AddUser([FromBody] CreateUserDto request)
         {
-            var user = new User { Username = request.Username, Passsword = request.Password };
+            var user = new User { Username = request.Username, Password = request.Password };
             var created = await userInterface.AddAsync(user);
 
            
@@ -80,7 +80,7 @@ namespace WebAppi.Controllers
         [HttpPut("{id:int}")]
         public async Task<IActionResult> Update(int id, [FromBody] CreateUserDto dto)
         {
-            var user = new User { Id = id, Username = dto.Username, Passsword = dto.Password };
+            var user = new User { Id = id, Username = dto.Username, Password = dto.Password };
             try
             {
                 await userInterface.UpdateAsync(user);

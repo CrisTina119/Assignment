@@ -59,7 +59,7 @@ public class UserInFileRepository : RepositoryContracts.Interfaces.IUserReposito
         return users.AsQueryable();
     }
 
-    public async Task<User> GetSingleAsync(int id)
+    public async Task<User?> GetSingleAsync(int id)
     {
         string usersAsJson = await File.ReadAllTextAsync(filePath);
         List<User> users = JsonSerializer.Deserialize<List<User>>(usersAsJson)!;
@@ -79,4 +79,17 @@ public class UserInFileRepository : RepositoryContracts.Interfaces.IUserReposito
         usersAsJson = JsonSerializer.Serialize(users);
         await File.WriteAllTextAsync(filePath, usersAsJson);
     }
+    public async Task<User?> GetByUserNameAsync(string username)
+{
+    List<User> allUsers = await GetUsersFromFileAsync();
+    return allUsers.SingleOrDefault(u => u.Username == username);
+}
+private async Task<List<User>> GetUsersFromFileAsync()
+{
+    string usersAsJson = await File.ReadAllTextAsync(filePath);
+
+    List<User>? users = JsonSerializer.Deserialize<List<User>>(usersAsJson);
+
+    return users ?? new List<User>();
+}
 }

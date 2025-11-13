@@ -53,7 +53,11 @@ public class UserInMemoryRepository : IUserRepository
             User? user = users!.SingleOrDefault(u => u.Id == id)?? throw new InvalidOperationException($"User with ID '{id}' not found.");
             return Task.FromResult(user);
         }
-
+public Task<User?> GetByUserNameAsync(string username)
+{
+    User? user = users.SingleOrDefault(u => u.Username == username);
+    return Task.FromResult(user);
+}
 
     public IQueryable<User> GetManyAsync()
     {

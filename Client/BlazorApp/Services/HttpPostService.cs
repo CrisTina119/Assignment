@@ -2,6 +2,7 @@ using System;
 using System.Text.Json;
 using ApiContracts.PostFolder;
 using ApiContracts.UserFolder;
+using System.Net.Http.Json;
 
 namespace BlazorApp.Services;
 

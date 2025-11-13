@@ -2,7 +2,7 @@ using ApiContracts;
 using ApiContracts.UserFolder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using RepositoryContracts;
+using RepositoryContracts.Interfaces;
 
 namespace WebAPI.Controllers
 {
@@ -11,8 +11,8 @@ namespace WebAPI.Controllers
     public class AuthController : ControllerBase
     {
 
-        private readonly UserInterface? users;
-        public AuthController(UserInterface users)
+        private readonly IUserRepository? users;
+        public AuthController(IUserRepository users)
         {
             this.users = users;
         }
@@ -23,7 +23,7 @@ namespace WebAPI.Controllers
             var u = await users!.GetByUserNameAsync(request.UserName!);
             if (u is null)
                 return Unauthorized("user not found");
-                  if (u.Passsword != request.Password)
+                  if (u.Password != request.Password)
         return Unauthorized("Invalid password");
 
             var dto = new UserDto

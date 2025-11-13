@@ -1,11 +1,10 @@
-3
-    using System;
+using System;
 using Entities;
 using RepositoryContracts;
 using RepositoryContracts.Interfaces;
 
 
-namespace InMemoryRepositories_;
+namespace InMemoryRepositories;
 
 public class CommentInMemoryRepository : ICommentRepository
 {
