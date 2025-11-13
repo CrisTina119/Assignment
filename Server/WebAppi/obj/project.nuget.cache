@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "dgSpecHash": "4DBiPfKytZo=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\crist\\Documents\\GitHub\\AssignmentDnp\\Server\\WebAppi\\WebAppi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\crist\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.18\\microsoft.netcore.app.ref.8.0.18.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.18\\microsoft.windowsdesktop.app.ref.8.0.18.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.18\\microsoft.aspnetcore.app.ref.8.0.18.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.18\\microsoft.netcore.app.host.win-x64.8.0.18.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project RepositoryContracts is not compatible with net8.0 (.NETCoreApp,Version=v8.0). Project RepositoryContracts supports: net9.0 (.NETCoreApp,Version=v9.0)",
+      "projectPath": "C:\\Users\\crist\\Documents\\GitHub\\AssignmentDnp\\Server\\WebAppi\\WebAppi.csproj",
+      "filePath": "C:\\Users\\crist\\Documents\\GitHub\\AssignmentDnp\\Server\\WebAppi\\WebAppi.csproj",
+      "libraryId": "RepositoryContracts",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project ApiContracts is not compatible with net8.0 (.NETCoreApp,Version=v8.0). Project ApiContracts supports: net10.0 (.NETCoreApp,Version=v10.0)",
+      "projectPath": "C:\\Users\\crist\\Documents\\GitHub\\AssignmentDnp\\Server\\WebAppi\\WebAppi.csproj",
+      "filePath": "C:\\Users\\crist\\Documents\\GitHub\\AssignmentDnp\\Server\\WebAppi\\WebAppi.csproj",
+      "libraryId": "ApiContracts",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+C:\Users\crist\Documents\GitHub\AssignmentDnp\Server\WebAppi\obj\Debug\net8.0\WebAppi.csproj.AssemblyReference.cache
+C:\Users\crist\Documents\GitHub\AssignmentDnp\Server\WebAppi\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\crist\Documents\GitHub\AssignmentDnp\Server\WebAppi\obj\Debug\net8.0\WebAppi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\crist\Documents\GitHub\AssignmentDnp\Server\WebAppi\obj\Debug\net8.0\WebAppi.AssemblyInfoInputs.cache
+C:\Users\crist\Documents\GitHub\AssignmentDnp\Server\WebAppi\obj\Debug\net8.0\WebAppi.AssemblyInfo.cs
+C:\Users\crist\Documents\GitHub\AssignmentDnp\Server\WebAppi\obj\Debug\net8.0\WebAppi.csproj.CoreCompileInputs.cache
+C:\Users\crist\Documents\GitHub\AssignmentDnp\Server\WebAppi\obj\Debug\net8.0\WebAppi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\crist\Documents\GitHub\AssignmentDnp\Server\WebAppi\obj\Debug\net8.0\WebAppi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\crist\Documents\GitHub\AssignmentDnp\Server\WebAppi\obj\Debug\net8.0\WebAppi.sourcelink.json
