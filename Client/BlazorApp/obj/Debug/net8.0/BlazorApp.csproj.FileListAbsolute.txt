@@ -1,0 +1,7 @@
+c:\Users\crist\Documents\GitHub\AssignmentDnp\Client\BlazorApp\obj\Debug\net8.0\rpswa.dswa.cache.json
+c:\Users\crist\Documents\GitHub\AssignmentDnp\Client\BlazorApp\obj\Debug\net8.0\BlazorApp.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\crist\Documents\GitHub\AssignmentDnp\Client\BlazorApp\obj\Debug\net8.0\BlazorApp.AssemblyInfoInputs.cache
+c:\Users\crist\Documents\GitHub\AssignmentDnp\Client\BlazorApp\obj\Debug\net8.0\BlazorApp.AssemblyInfo.cs
+c:\Users\crist\Documents\GitHub\AssignmentDnp\Client\BlazorApp\obj\Debug\net8.0\BlazorApp.csproj.CoreCompileInputs.cache
+c:\Users\crist\Documents\GitHub\AssignmentDnp\Client\BlazorApp\obj\Debug\net8.0\BlazorApp.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\crist\Documents\GitHub\AssignmentDnp\Client\BlazorApp\obj\Debug\net8.0\BlazorApp.sourcelink.json

@@ -2,8 +2,11 @@ using BlazorApp.Components;
 using BlazorApp.Components;
 using Microsoft.AspNetCore.Mvc.Routing;
 using BlazorApp.Services;
-var builder = WebApplication.CreateBuilder(args);
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
+var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
