@@ -1,16 +1,16 @@
 using System;
+namespace ApiContracts.AuthFolder;
 
-namespace ApiContracts.UserFolder;
-public record LoginRequest(string Username, int Password);
 public class LoginRequest
 {
-    public LoginRequest(string UserName, int password)
-    {
-        this.UserName = UserName;
-        this.Password = password;
-    }
+    public string Username { get; set; }
+    public string Password { get; set; }
 
-    public string? UserName { get; set; }
-    public int Password { get; set; }
-    
+    public LoginRequest() { }
+
+    public LoginRequest(string username, string password)
+    {
+        Username = username;
+        Password = password;
+    }
 }

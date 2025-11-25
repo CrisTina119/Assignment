@@ -1,11 +1,10 @@
 using ApiContracts.UserFolder;
 using Microsoft.AspNetCore.Mvc;
 using RepositoryContracts.Interfaces;
-using Entities;
 
 namespace WebAppi.Controllers;
 
-[ApiController]
+    [ApiController]
 [Route("auth")]
 public class AuthController : ControllerBase
 {
@@ -16,22 +15,20 @@ public class AuthController : ControllerBase
         this.userRepository = userRepository;
     }
 
-    [HttpPost("login")]
-    public async Task<ActionResult<UserDto>> Login(LoginRequest request)
-    {
-        var user = await userRepository.GetByUserNameAsync(request.Username);
+      [HttpPost]
+   public async Task<ActionResult<UserDto>> Login([FromBody] LoginRequest request)
+             {
+            var u = await users!.GetByUserNameAsync(request.UserName!);
+            if (u is null)
+                return Unauthorized("user not found");
+                  if (u.Passsword != request.Password)
+        return Unauthorized("Invalid password");
 
-        if (user == null) return Unauthorized("User not found.");
-
-        if (user.Password != request.Password)
-            return Unauthorized("Wrong password.");
-
-        var dto = new UserDto
-        {
-            Id = user.Id,
-            Username = user.Username
-        };
-
-        return Ok(dto);
+            var dto = new UserDto
+            {
+                Id = u.Id,
+                Username = u.Username!
+            };
+            return dto;
+        }
     }
-}

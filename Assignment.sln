@@ -25,6 +25,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryRepositories", "Ser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLI", "Server\CLI\CLI.csproj", "{17332C35-59AE-41FC-A594-A0733B2D33BB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EfcRepositories", "EfcRepositories", "{DB24A417-89F5-1304-5984-F4C79DE9E63C}"
+	ProjectSection(SolutionItems) = preProject
+		AppContext.cs = AppContext.cs
+		EfcPostRepository.cs = EfcPostRepository.cs
+		EfcUserRepository.cs = EfcUserRepository.cs
+		EfcCommentRepository.cs = EfcCommentRepository.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

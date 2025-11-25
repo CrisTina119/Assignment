@@ -2,7 +2,6 @@ using ApiContracts.PostFolder;
 using ApiContracts.UserFolder;
 using Microsoft.AspNetCore.Mvc;
 using RepositoryContracts.Interfaces;
-using Entities;
 
 namespace WebAppi.Controllers
 {

@@ -19,6 +19,12 @@ builder.Services.AddScoped<IPostRepository, PostInFileRepository>();
 builder.Services.AddScoped<IUserRepository, UserInFileRepository>();
 builder.Services.AddScoped<ICommentRepository, CommentInFileRepository>();
 
+builder.Services.AddDbContext<AppContext>();
+
+builder.Services.AddScoped<IPostRepository, EfcPostRepository>();
+builder.Services.AddScoped<IUserRepository, EfcUserRepository>();
+builder.Services.AddScoped<ICommentRepository, EfcCommentRepository>();
+
 var app = builder.Build();
 
 app.MapControllers();
